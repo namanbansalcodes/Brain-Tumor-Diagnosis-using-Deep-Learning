@@ -43,7 +43,8 @@ OR
 4. Do ya thing!
 5. Enlighten me please.
 
-##Conclusion
+## Conclusion
+
 When trained on 20 epochs with a batch size of 32, the training accuracy is 0.93 based on Sparse_Categorical_CrossEntropy loss function and
 the model achieves a validation accuracy of 0.89 and a loss of around 0.23.
 
