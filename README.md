@@ -29,7 +29,7 @@ Our model is an implementation of AlexNet with 3 convolutoin layers and then 3 f
 
 Tensorflow, Numpy, h5py, Matplotlib.pyplot, os and cv2
 
-1. Download the dataset to your google drive, unzip all folders and store them in one folder. (you can do this easily using MultiCloid)
+1. Download the dataset to your google drive, unzip all folders and store them in one folder. (you can do this easily using https://www.multcloud.com/)
 2. Open the notebook in Google Collab.
 3. Mount Google Drive.
 4. Do ya thing!
