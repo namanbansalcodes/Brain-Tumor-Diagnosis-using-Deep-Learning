@@ -4,19 +4,18 @@
 
 **Model used:** AlexNet
 
-**Trained on:** Google Collab
+**Trained on:** Google Collab with Python 3.8
 
 
 ## Problem Statement
 
-Building a deep learning model which can identify which kind of tumor exists in the brain.
-The model is supposed to classify between: Meningloma, Glioma and Pitutary Tumors.
+To build a deep neural network which can identify what kind of tumor exists in the brain.
+The model is supposed to classify brain tumors between: Meningloma, Glioma and Pitutary Tumors.
 
 ## Dataset
 
 Form the dataset mentioned above, we are using 2440 images as training set and rest 660 images as validation set. The dataset consists of 708 images for Meningloma,
-1146 images for Glioma and 915 images for Pitutary Tumor. Also, the images are of three different views: Sagittal, Axial and Coronal. We have to train a model that
-can detect tumors accurately despite the views.
+1146 images for Glioma and 915 images for Pitutary Tumor. Also, the images in the dataset can belong to any of the three different views: Sagittal, Axial and Coronal Views (These views are nothing but different angle of of brain MRI). We have to train a model that can detect tumors accurately despite the views.
 
 ## Solution
 
@@ -27,7 +26,7 @@ Our model is an implementation of AlexNet with 3 convolutoin layers and then 3 f
 
 ## How to run
 
-Tensorflow, Numpy, h5py, Matplotlib.pyplot, os and cv2
+Required Modules: Tensorflow 2.0, Numpy, h5py, Matplotlib.pyplot, os and cv2
 
 1. Download the dataset to your google drive, unzip all folders and store them in one folder. (you can do this easily using https://www.multcloud.com/)
 2. Open the notebook in Google Collab.
@@ -45,7 +44,8 @@ OR
 
 ## Conclusion
 
-When trained on 20 epochs with a batch size of 32, the training accuracy is 0.93 based on Sparse_Categorical_CrossEntropy loss function and
-the model achieves a validation accuracy of 0.89 and a loss of around 0.23.
+When trained on 20 epochs with a batch size of 32, the model gives a training accuracy of 0.93 based on Sparse_Categorical_CrossEntropy loss function and
+it achieves a validation accuracy of 0.89 and a loss of around 0.23.
 
-Please help me imporve the results.
+Please help me improve the results.
+Hit me up at: namanbansalcodes@gmail.com
