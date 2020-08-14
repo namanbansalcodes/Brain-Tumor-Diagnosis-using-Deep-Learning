@@ -17,6 +17,8 @@ The model is supposed to classify brain tumors between: Meningloma, Glioma and P
 Form the dataset mentioned above, we are using 2440 images as training set and rest 660 images as validation set. The dataset consists of 708 images for Meningloma,
 1146 images for Glioma and 915 images for Pitutary Tumor. Also, the images in the dataset can belong to any of the three different views: Sagittal, Axial and Coronal Views (These views are nothing but different angle of of brain MRI). We have to train a model that can detect tumors accurately despite the views.
 
+NOTE: I have put all files from the dataset into one single folder in this project.
+
 ## Solution
 
 Our model is an implementation of AlexNet with 3 convolutoin layers and then 3 fully connected layers, as mentioned below:
@@ -28,7 +30,7 @@ Our model is an implementation of AlexNet with 3 convolutoin layers and then 3 f
 
 Required Modules: Tensorflow 2.0, Numpy, h5py, Matplotlib.pyplot, os and cv2
 
-1. Download the dataset to your google drive, unzip all folders and store them in one folder. (you can do this easily using https://www.multcloud.com/)
+1. Fetch the entire dataset to your google drive, unzip all folders and store them in one folder. (you can do this easily using https://www.multcloud.com/)
 2. Open the notebook in Google Collab.
 3. Mount Google Drive.
 4. Do ya thing!
@@ -38,7 +40,7 @@ OR
 
 1. Add my pickle file to your drive using this link: https://drive.google.com/file/d/1IKvwqGRjZajEf78I41j2VOdv_ztsQl6R/view?usp=sharing
 2. Open the notebook in Google Collab.
-3. Mount google drive and run the block that says load pickle file.
+3. Mount google drive and run the code block that says "load pickle file".
 4. Do ya thing!
 5. Enlighten me please.
 
